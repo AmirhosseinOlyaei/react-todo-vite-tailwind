@@ -1,6 +1,6 @@
 function AddTodoForm() {
   return (
-    <form className="">
+    <form>
       <label htmlFor="todoTitle">Title</label>
       <input type="text" id="todoTitle"></input>
       <button type="submit">Add</button>
