@@ -1,5 +1,5 @@
-import todoLogo from "./assets/todo.svg";
-
+import todoLogo from "./todo.svg";
+// ./assets/todo.svg
 function Logo() {
   return (
     <a href="" target="_blank" rel="noreferrer">
