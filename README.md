@@ -14,3 +14,9 @@ Current official plugin is :
 Setting up Tailwind CSS in a Vite project.
 
 https://tailwindcss.com/docs/guides/vite
+
+---
+
+> Start the live server:
+>
+> - `npm run dev`
