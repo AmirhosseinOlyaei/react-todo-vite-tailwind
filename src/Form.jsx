@@ -10,7 +10,7 @@ import {
   MDBListGroup,
   MDBListGroupItem,
   MDBRow,
-  MDBSelect,
+  // MDBSelect,
   MDBTooltip,
 } from "mdb-react-ui-kit";
 
@@ -60,21 +60,21 @@ export default function Form() {
 
               <div className="pt-2 pb-3 mb-4 d-flex justify-content-end align-items-center">
                 <p className="mb-0 small me-2 text-muted">Filter</p>
-                <MDBSelect
+                {/* <MDBSelect
                   data={[
                     { text: "All", value: 1 },
                     { text: "Completed", value: 2 },
                     { text: "Active", value: 3 },
                     { text: "Has due date", value: 4 },
                   ]}
-                />
+                /> */}
                 <p className="mb-0 small ms-4 me-2 text-muted">Sort</p>
-                <MDBSelect
+                {/* <MDBSelect
                   data={[
                     { text: "Added date", value: 1 },
                     { text: "Due date", value: 2 },
                   ]}
-                />
+                /> */}
                 <MDBTooltip
                   tag="a"
                   wrapperProps={{ href: "#!" }}
